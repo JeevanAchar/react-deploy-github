@@ -1,0 +1,49 @@
+/* background component */
+.MainLog{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+/* delisious component */
+.deli{
+    font-size: 40px;
+    font-style: italic;
+}
+.deli a{
+    text-decoration: none;
+    /* color: #eee; */
+    color: black;
+}
+/*menu component */
+.menuApp ul{
+    display: flex;
+}
+.menuApp ul li a{
+ text-decoration: none;
+ color: #0f0f0f;
+}
+.menuApp ul li a:hover{
+ color: #ffc107;
+}
+.menuApp ul li{
+    list-style: none;
+    text-decoration: none;
+    /* justify-content: space-between; */
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+/* Book a table button Css part*/
+.Bbutton{
+    border-radius: 20px;
+    font-size: 18px;
+    font-style: italic;
+    color: #eee;
+    height: 30px;
+    width: 120px;
+    background-color: #ffc107;
+    margin-top: 10px;
+}
+.Bbutton:hover{
+    height: 33px;
+}
