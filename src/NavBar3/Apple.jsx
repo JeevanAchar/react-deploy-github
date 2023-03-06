@@ -1,14 +1,12 @@
 import React from 'react'
-import STYLE from './admin.module.css';
-
-const Admin = () => {
+import STYLE from './apple.module.css';
+const Apple = () => {
   return (
     <>
         <div className={STYLE.adminBlock}>
-            <button>Login🧑‍💻</button>
             <ul>
                 <li>
-                   😀 <a href="dashboard">Dashboard</a>
+                   <a href="dashboard">Dashboard</a>
                 </li>
                 <li>
                     <a href="component">Components</a>
@@ -26,9 +24,10 @@ const Admin = () => {
                     <a href="icons">Icons</a>
                 </li>
             </ul>
+            <button>Login</button>
         </div>
     </>
   )
 }
 
-export default Admin
+export default Apple;

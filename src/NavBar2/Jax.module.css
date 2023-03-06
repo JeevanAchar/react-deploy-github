@@ -1,0 +1,34 @@
+.adminBlock{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.adminBlock ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.adminBlock ul li a:hover{
+    color: rgb(24, 208, 24);
+}
+.adminBlock ul li{
+    list-style: none;
+    padding: 10px;
+}
+.adminBlock ul{
+    display: flex;
+}
+button{
+    height: 30px;
+    width: 120px;
+    background-color: #7c7676;
+    border-radius: 20px;
+    color: #eee;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: #ffc107;
+}
