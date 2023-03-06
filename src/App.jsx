@@ -1,13 +1,11 @@
 import React from 'react'
-import BackGround from './NavBar/BackGround';
 import "./index.css"
-import Admin from './NavBar1/Admin';
+import NetFlix from './Netflix/NetFlix'
 
 const App = () => {
   return (
     <>
-      <BackGround/>
-      <Admin/>
+    <NetFlix/>
     </>
   )
 }

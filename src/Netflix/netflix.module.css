@@ -1,0 +1,60 @@
+*{
+ margin: auto;
+ /* background-image: url(https://winbuzzer.com/wp-content/uploads/2019/01/netflix-reuse-official-696x392.jpg.webp);
+ position: relative; */
+}
+
+.logo{
+    height:50px;
+    width:140px;
+    border-radius: 5px;
+}
+/* div*/
+.NetFlixDiv{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 29, 29);
+    /* opacity: 0.5; */
+    position: relative;
+}
+
+.NetFlixDiv ul{
+    list-style: none;
+    display: flex;
+}
+.NetFlixDiv ul li a {
+    text-decoration: none;
+    color: #eee;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.NetFlixDiv ul li a:hover{
+     color: #ffc107;
+}
+.signUp{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #655f5f;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.signUp:hover{
+    color: #000000;
+    background-color: white;
+}
+.login{
+    color: white;
+    background-color: red;
+    border-radius: 10px;    
+    height: 30px;
+    width: 100px;
+    border: 1px solid #655f5f;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.login:hover{
+    background-color: #655f5f;
+}
