@@ -23,7 +23,7 @@ const NetFlix = () => {
                 <a href="contact">CONTACT</a>
             </li>
             <button className={STYLE.signUp}>SIGNUP</button>
-            <button className={STYLE.login}>LOGIN</button>
+            <button className={STYLE.login}>LOGIN.</button>
         </ul>
     </div>
     </>
