@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import CarDetails from './CarDetails';
+import JSON from "./jsonData.json";
 import "./index.css"
-import NetFlix from './Netflix/NetFlix'
+
 
 const App = () => {
   return (
     <>
-    <NetFlix/>
+      <CarDetails details={JSON}/>
     </>
   )
 }
